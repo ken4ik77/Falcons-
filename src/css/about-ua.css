@@ -13,7 +13,7 @@
   color: #3a414b;
   margin-bottom: 20px;
 }
-.about-p {
+.about-p-main {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
@@ -30,6 +30,14 @@
   text-align: center;
   color: #3a414b;
   margin-bottom: 20px;
+}
+.about-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #3a414b;
+  margin-bottom: 48px;
 }
 .ul-about {
 }
@@ -56,5 +64,63 @@
 @media only screen and (min-width: 768px) {
   .div-about {
     max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  .about-main {
+    margin-bottom: 24px;
+  }
+  .about-p-main {
+    margin-bottom: 40px;
+  }
+  .ul-about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 47px 24px;
+    max-width: 768px;
+    margin: 0 32px;
+    margin-bottom: 40px;
+  }
+  .about-list {
+    width: calc((100% - 24px) / 2);
+    margin: 0;
+  }
+  .about-h {
+    font-size: 23px;
+    margin-bottom: 0;
+  }
+  .about-p {
+    margin: 0;
+  }
+  .btn-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    width: 110px;
+    height: 46px;
+    margin: 0 auto;
+  }
+  .btn-span {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .div-about {
+    max-width: 1440px;
+  }
+  .ul-about {
+    max-width: 1312px;
+  }
+  .about-list {
+    width: calc((100% - 24px * 3) / 4);
+  }
+  .about-h {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .about-p {
   }
 }
