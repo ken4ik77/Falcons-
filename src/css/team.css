@@ -8,13 +8,12 @@
   background: #f2fafa;
 }
 
-.container {
+/* .container {
   margin: 0 auto;
   max-width: 375px;
-
   padding-left: 16px;
   padding-right: 16px;
-}
+} */
 
 .main-text {
   font-family: "Sarabun", sans-serif;
@@ -23,6 +22,7 @@
   line-height: 24px;
   text-align: center;
   color: #0d0b0a;
+  margin-bottom: 12px;
 }
 
 .main-title {
@@ -33,7 +33,6 @@
   letter-spacing: 0.01em;
   text-align: center;
   color: #0d0b0a;
-  margin-top: 12px;
   margin-bottom: 20px;
 }
 
@@ -44,7 +43,10 @@
   line-height: 26px;
   text-align: center;
   color: #0d0b0a;
-  margin-bottom: 48px;
+}
+
+.first-info{
+margin-bottom: 48px;
 }
 
 .coach-list {
@@ -68,12 +70,12 @@
   display: block;
   border-radius: 16px;
   object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .coach-block {
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
 .coach-name {
@@ -83,7 +85,6 @@
   line-height: 29px;
   text-align: center;
   color: #0d0b0a;
-  margin: 20px 0 0 0;
 }
 
 .coach-position {
@@ -93,7 +94,7 @@
   line-height: 26px;
   text-align: center;
   color: #0d0b0a;
-  margin: 0;
+  margin-bottom: 12px;
 }
 
 .coach-info {
@@ -103,11 +104,10 @@
   line-height: 26px;
   text-align: center;
   color: #0d0b0a;
-  margin: 12px 0 20px 0;
+  margin-bottom: 20px;
 }
 
 .social-team-list {
-  margin-top: auto;
   display: flex;
   gap: 14px;
   justify-content: center;
@@ -120,16 +120,23 @@
 
   }
 
-  .container {
+  /* .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+  } */
+
+ .first-info{
+  margin-bottom: 40px;
+ } 
+
+  .main-text{
+    margin-bottom: 16px;
   }
 
   .main-title {
     font-size: 52px;
     line-height: 62px;
-    margin-top: 16px;
     margin-bottom: 24px;
   }
 
@@ -137,8 +144,8 @@
   .subtitle-text {
     font-size: 18px;
     line-height: 29px;
-    margin-bottom: 40px;
   }
+
 
   .coach-list {
     flex-wrap: wrap;
@@ -153,6 +160,10 @@
     flex-direction: column;
   }
 
+.coach-item img{
+margin-bottom: 24px;
+}
+
   .coach-block {
     display: flex;
     flex-direction: column;
@@ -162,21 +173,17 @@
     font-weight: 600;
     font-size: 22px;
     line-height: 35px;
-    margin: 24px 0 0 0;
+
   }
 
   .coach-position {
     font-size: 18px;
     line-height: 29px;
-    margin: 0;
+    margin-bottom: 16px;
   }
 
   .coach-info {
-    margin: 16px 0 24px 0;
-  }
-
-  .social-team-list {
-    margin: 0 0 0 24px;
+    margin-bottom: 24px;
   }
 
 }
@@ -187,11 +194,11 @@
     padding-bottom: 112px;
   }
 
-  .container {
+  /* .container {
     max-width: 1440px;
     padding-left: 64px;
     padding-right: 64px;
-  }
+  } */
 
   .main-text {
     font-family: "Sarabun", sans-serif;
@@ -200,6 +207,7 @@
     line-height: 24px;
     text-align: center;
     color: #0d0b0a;
+    margin-bottom: 16px;
   }
 
   .main-title {
@@ -210,7 +218,6 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #0d0b0a;
-    margin-top: 16px;
     margin-bottom: 24px;
   }
 
@@ -221,7 +228,6 @@
     line-height: 29px;
     text-align: center;
     color: #0d0b0a;
-    margin-bottom: 40px;
   }
 
   .coach-list {
@@ -249,6 +255,7 @@
     display: block;
     border-radius: 16px;
     object-fit: cover;
+    margin-bottom: 24px;
   }
 
   .coach-block {
@@ -264,7 +271,6 @@
     line-height: 35px;
     text-align: center;
     color: #0d0b0a;
-    margin: 24px 0 0 0;
   }
 
   .coach-position {
@@ -274,7 +280,7 @@
     line-height: 29px;
     text-align: center;
     color: #0d0b0a;
-    margin: 0;
+    margin-bottom: 16px;
   }
 
   .coach-info {
@@ -284,11 +290,10 @@
     line-height: 29px;
     text-align: center;
     color: #0d0b0a;
-    margin: 16px 0 24px 0;
+    margin-bottom: 24px;
   }
 
   .social-team-list {
-    margin-top: auto;
     display: flex;
     gap: 14px;
     justify-content: center;
