@@ -8,13 +8,6 @@
   background: #f2fafa;
 }
 
-/* .container {
-  margin: 0 auto;
-  max-width: 375px;
-  padding-left: 16px;
-  padding-right: 16px;
-} */
-
 .main-text {
   font-family: "Sarabun", sans-serif;
   font-weight: 600;
@@ -113,6 +106,19 @@ margin-bottom: 48px;
   justify-content: center;
 }
 
+.social-links {
+  color: #0d0b0a;
+  transition: color 0.3s ease;
+}
+
+.social-links:hover {
+  color: #8a8a8a;
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
 @media screen and (min-width: 768px) {
   .team-section {
     padding-top: 40px;
@@ -120,11 +126,9 @@ margin-bottom: 48px;
 
   }
 
-  /* .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  } */
+    .team-container {
+      padding: 0 32px;
+    }
 
  .first-info{
   margin-bottom: 40px;
@@ -188,17 +192,15 @@ margin-bottom: 24px;
 
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1336px) {
   .team-section {
     padding-top: 112px;
     padding-bottom: 112px;
   }
 
-  /* .container {
-    max-width: 1440px;
-    padding-left: 64px;
-    padding-right: 64px;
-  } */
+  .team-container{
+    padding: 0 64px;
+  }
 
   .main-text {
     font-family: "Sarabun", sans-serif;
@@ -233,8 +235,7 @@ margin-bottom: 24px;
   .coach-list {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 64px;
-    column-gap: 24px;
+    gap: 64px 24px;
     list-style: none;
     padding: 0;
     margin: 0;
