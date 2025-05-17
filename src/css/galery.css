@@ -1,6 +1,6 @@
 .galery-section {
   padding: 64px 0;
-  background-color: var(--color-scheme-3-background);
+  background-color: var(--color-drover-lightest);
 }
 .galery-section .container {
   padding-left: 20px;
@@ -37,7 +37,8 @@ margin-bottom: 20px;
 @media only screen and (min-width: 768px) {
   .galery-section {
     padding-top: 40px;
-    padding-bottom: 40px;    
+    padding-bottom: 40px; 
+    background-color: var(--color-scheme-3-background);
   }
   .galery-section .container {
     padding-left: 32px;
@@ -51,8 +52,6 @@ margin-bottom: 20px;
     color: var(--color-scheme-3-text);
   }
 }
-
-
 @media only screen and (min-width: 1336px) {
   .galery-section {
     padding-top: 112px;
@@ -69,12 +68,8 @@ margin-bottom: 20px;
     width: 768px;
     margin: 0 auto 80px auto;
     font-weight: 500;
-  }
-  
-  
+  }  
   .galery-title-list-item {
     width: calc((100% - 48px) / 3);
   }
 }
-
-
