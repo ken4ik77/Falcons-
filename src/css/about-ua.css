@@ -107,6 +107,10 @@
     height: 46px;
     margin: 0 auto;
   }
+  .btn-about-ref {
+    display: flex;
+    gap: 8px;
+  }
   .btn-span {
     display: flex;
   }
