@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/hero.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-container">
+        <picture>
+         <source
+            srcset="
+               ../img/HeroImg/Hero-Image-mob.png 1x,
+               ../img/HeroImg/Hero-Image-mob@2x.png 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              ../img/HeroImg/Hero-Image-desc.png    1x,
+              ../img/HeroImg/Hero-Image-desc@2x.png 2x
+            "
+            media="(min-width: 1336px)"
+          />
+          <source
+            srcset="
+              ../img/HeroImg/Hero-Image-tab.png   1x,
+              ../img/HeroImg/Hero-Image-tab@2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          
+          <img src="../img/HeroImg/Hero-Image-mob.png" alt="Mark Guerrero" />
+        </picture>
+        <div class="hero-content">
+            <h1 class="hero-header ">Transform Your Life with Our Yoga Courses</h1>
+            <div class="hero-text-cont">
+               <p class="hero-text">
+                  Discover the harmony of mind and body through our expertly designed
+                  yoga programs. Join a community dedicated to wellness and personal
+                  growth.
+               </p>
+               <div class="btn-cont">
+                  <a href="#pricing" class="hero-btn_1">Join Now</a>
+                  <a href="#gallery" class="hero-btn_2">Learn More</a>                  
+               </div>
+            </div>
+         </div>
+      </div>
+    </section>
+  </body>
+</html>
