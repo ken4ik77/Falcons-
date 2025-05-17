@@ -5,37 +5,38 @@
 .team-section {
   padding-top: 64px;
   padding-bottom: 64px;
-  background: #f2fafa;
+  background: var(--color-drover-lightest);
+  color: var(--color-neutral-darkest);
 }
 
 .main-text {
-  font-family: "Sarabun", sans-serif;
+  font-family: var(--font-family-sarabun);
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #0d0b0a;
+  color: var(--color-neutral-darkest);
   margin-bottom: 12px;
 }
 
 .main-title {
-  font-family: "Cabin", sans-serif;
+  font-family: var(--font-family-cabin);
   font-weight: 400;
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0.01em;
   text-align: center;
-  color: #0d0b0a;
+  color: var(--color-neutral-darkest);
   margin-bottom: 20px;
 }
 
 .subtitle-text {
-  font-family: "Sarabun", sans-serif;
+  font-family: var(--font-family-sarabun);
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #0d0b0a;
+  color: var(--color-neutral-darkest);
 }
 
 .first-info{
@@ -72,31 +73,31 @@ margin-bottom: 48px;
 }
 
 .coach-name {
-  font-family: "Sarabun", sans-serif;
+  font-family: var(--font-family-sarabun);
   font-weight: 600;
   font-size: 18px;
   line-height: 29px;
   text-align: center;
-  color: #0d0b0a;
+  color: var(--color-neutral-darkest);
 }
 
 .coach-position {
-  font-family: "Sarabun", sans-serif;
+  font-family: var(--font-family-sarabun);
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #0d0b0a;
+  color: var(--color-neutral-darkest);
   margin-bottom: 12px;
 }
 
 .coach-info {
-  font-family: "Sarabun", sans-serif;
+font-family: var(--font-family-sarabun);
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #0d0b0a;
+  color: var(--color-neutral-darkest);
   margin-bottom: 20px;
 }
 
@@ -107,7 +108,7 @@ margin-bottom: 48px;
 }
 
 .social-links {
-  color: #0d0b0a;
+  color: var(--color-neutral-darkest);
   transition: color 0.3s ease;
 }
 
@@ -135,19 +136,25 @@ margin-bottom: 48px;
  } 
 
   .main-text{
+    font-family: var(--font-family-sarabun);
     margin-bottom: 16px;
+    color: var(--color-neutral-darkest);
   }
 
   .main-title {
+    font-family: var(--font-family-cabin);
     font-size: 52px;
     line-height: 62px;
     margin-bottom: 24px;
+    color: var(--color-neutral-darkest);
   }
 
 
   .subtitle-text {
+    font-family: var(--font-family-sarabun);
     font-size: 18px;
     line-height: 29px;
+    color: var(--color-neutral-darkest);
   }
 
 
@@ -174,16 +181,20 @@ margin-bottom: 24px;
   }
 
   .coach-name {
+    font-family: var(--font-family-sarabun);
     font-weight: 600;
     font-size: 22px;
     line-height: 35px;
+    color: var(--color-neutral-darkest);
 
   }
 
   .coach-position {
+    font-family: var(--font-family-sarabun);
     font-size: 18px;
     line-height: 29px;
     margin-bottom: 16px;
+    color: var(--color-neutral-darkest);
   }
 
   .coach-info {
@@ -203,33 +214,33 @@ margin-bottom: 24px;
   }
 
   .main-text {
-    font-family: "Sarabun", sans-serif;
+    font-family: var(--font-family-sarabun);
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #0d0b0a;
     margin-bottom: 16px;
+    color: var(--color-neutral-darkest);
   }
 
   .main-title {
-    font-family: "Cabin", sans-serif;
+    font-family: var(--font-family-cabin);
     font-weight: 400;
     font-size: 52px;
     line-height: 62px;
     letter-spacing: 0.01em;
     text-align: center;
-    color: #0d0b0a;
+    color: var(--color-neutral-darkest);
     margin-bottom: 24px;
   }
 
   .subtitle-text {
-    font-family: "Sarabun", sans-serif;
+    font-family: var(--font-family-sarabun);
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
     text-align: center;
-    color: #0d0b0a;
+    color: var(--color-neutral-darkest);
   }
 
   .coach-list {
@@ -266,31 +277,31 @@ margin-bottom: 24px;
   }
 
   .coach-name {
-    font-family: "Sarabun", sans-serif;
+    font-family: var(--font-family-sarabun);
     font-weight: 600;
     font-size: 22px;
     line-height: 35px;
     text-align: center;
-    color: #0d0b0a;
+    color: var(--color-neutral-darkest);
+    
   }
 
   .coach-position {
-    font-family: "Sarabun", sans-serif;
+    font-family: var(--font-family-sarabun);
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
     text-align: center;
-    color: #0d0b0a;
     margin-bottom: 16px;
+    color: var(--color-neutral-darkest);
   }
 
   .coach-info {
-    font-family: "Sarabun", sans-serif;
+    font-family: var(--font-family-sarabun);
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
     text-align: center;
-    color: #0d0b0a;
     margin-bottom: 24px;
   }
 
