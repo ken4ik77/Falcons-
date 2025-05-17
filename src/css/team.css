@@ -136,25 +136,19 @@ font-family: var(--font-family-sarabun);
  } 
 
   .main-text{
-    font-family: var(--font-family-sarabun);
     margin-bottom: 16px;
-    color: var(--color-neutral-darkest);
   }
 
   .main-title {
-    font-family: var(--font-family-cabin);
     font-size: 52px;
     line-height: 62px;
     margin-bottom: 24px;
-    color: var(--color-neutral-darkest);
   }
 
 
   .subtitle-text {
-    font-family: var(--font-family-sarabun);
     font-size: 18px;
     line-height: 29px;
-    color: var(--color-neutral-darkest);
   }
 
 
@@ -175,26 +169,16 @@ font-family: var(--font-family-sarabun);
 margin-bottom: 24px;
 }
 
-  .coach-block {
-    display: flex;
-    flex-direction: column;
-  }
-
   .coach-name {
-    font-family: var(--font-family-sarabun);
     font-weight: 600;
     font-size: 22px;
     line-height: 35px;
-    color: var(--color-neutral-darkest);
-
   }
 
   .coach-position {
-    font-family: var(--font-family-sarabun);
     font-size: 18px;
     line-height: 29px;
     margin-bottom: 16px;
-    color: var(--color-neutral-darkest);
   }
 
   .coach-info {
@@ -214,42 +198,15 @@ margin-bottom: 24px;
   }
 
   .main-text {
-    font-family: var(--font-family-sarabun);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
     margin-bottom: 16px;
-    color: var(--color-neutral-darkest);
   }
 
   .main-title {
-    font-family: var(--font-family-cabin);
-    font-weight: 400;
-    font-size: 52px;
-    line-height: 62px;
-    letter-spacing: 0.01em;
-    text-align: center;
-    color: var(--color-neutral-darkest);
     margin-bottom: 24px;
   }
 
-  .subtitle-text {
-    font-family: var(--font-family-sarabun);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    text-align: center;
-    color: var(--color-neutral-darkest);
-  }
-
   .coach-list {
-    display: flex;
-    flex-wrap: wrap;
     gap: 64px 24px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
   }
 
   .coach-item {
@@ -257,57 +214,15 @@ margin-bottom: 24px;
     border-radius: 16px;
     margin: 0;
     padding: 0;
-    display: flex;
     flex-direction: column;
   }
 
   .coach-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 16px;
-    object-fit: cover;
     margin-bottom: 24px;
-  }
-
-  .coach-block {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-  }
-
-  .coach-name {
-    font-family: var(--font-family-sarabun);
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 35px;
-    text-align: center;
-    color: var(--color-neutral-darkest);
-    
-  }
-
-  .coach-position {
-    font-family: var(--font-family-sarabun);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    text-align: center;
-    margin-bottom: 16px;
-    color: var(--color-neutral-darkest);
   }
 
   .coach-info {
-    font-family: var(--font-family-sarabun);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    text-align: center;
     margin-bottom: 24px;
   }
 
-  .social-team-list {
-    display: flex;
-    gap: 14px;
-    justify-content: center;
-  }
 }
