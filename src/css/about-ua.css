@@ -1,6 +1,9 @@
+.about-us {
+  background-color: #f2fef3;
+}
 .div-about {
   max-width: 375px;
-  background-color: #f2fef3;
+
   padding: 64px 0;
 }
 
@@ -107,15 +110,16 @@
     display: flex;
   }
 }
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1336px) {
   .div-about {
     max-width: 1440px;
   }
   .ul-about {
     max-width: 1312px;
+    flex-wrap: nowrap;
   }
   .about-list {
-    width: calc((100% - 24px * 3) / 4);
+    width: 310px;
   }
   .about-h {
     font-size: 28px;
