@@ -1,19 +1,302 @@
-.badges-list {
+* {
+  box-sizing: border-box;
+}
+
+.team-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background: #f2fafa;
+}
+
+.main-text {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 12px;
+}
+
+.main-title {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 20px;
+}
+
+.subtitle-text {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+.first-info{
+margin-bottom: 48px;
+}
+
+.coach-list {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 32px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  row-gap: 48px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.badges-link {
+
+.coach-item {
+  width: 100%;
+}
+
+
+.coach-item img {
+  width: 100%;
+  height: auto;
   display: block;
-  padding: 8px 16px;
-  border: 1px solid;
-  border-radius: 8px;
-  transition: 200ms ease-in;
+  border-radius: 16px;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
-.badges-link:hover,
-.badges-link:focus {
-  transform: scale(1.06);
-  color: #747bff;
+
+.coach-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.coach-name {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+.coach-position {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 12px;
+}
+
+.coach-info {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 20px;
+}
+
+.social-team-list {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+}
+
+.social-links {
+  color: #0d0b0a;
+  transition: color 0.3s ease;
+}
+
+.social-links:hover {
+  color: #8a8a8a;
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
+@media screen and (min-width: 768px) {
+  .team-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
+
+    .team-container {
+      padding: 0 32px;
+    }
+
+ .first-info{
+  margin-bottom: 40px;
+ } 
+
+  .main-text{
+    margin-bottom: 16px;
+  }
+
+  .main-title {
+    font-size: 52px;
+    line-height: 62px;
+    margin-bottom: 24px;
+  }
+
+
+  .subtitle-text {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+
+  .coach-list {
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 24px;
+    flex-direction: row;
+  }
+
+  .coach-item {
+    width: calc((100% - 48px) / 2);
+    display: flex;
+    flex-direction: column;
+  }
+
+.coach-item img{
+margin-bottom: 24px;
+}
+
+  .coach-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .coach-name {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 35px;
+
+  }
+
+  .coach-position {
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 16px;
+  }
+
+  .coach-info {
+    margin-bottom: 24px;
+  }
+
+}
+
+@media screen and (min-width: 1336px) {
+  .team-section {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .team-container{
+    padding: 0 64px;
+  }
+
+  .main-text {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 16px;
+  }
+
+  .main-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 24px;
+  }
+
+  .subtitle-text {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #0d0b0a;
+  }
+
+  .coach-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .coach-item {
+    width: calc((100% - 48px) / 3);
+    border-radius: 16px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .coach-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-bottom: 24px;
+  }
+
+  .coach-block {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .coach-name {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    color: #0d0b0a;
+  }
+
+  .coach-position {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 16px;
+  }
+
+  .coach-info {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 24px;
+  }
+
+  .social-team-list {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+  }
 }
