@@ -52,6 +52,7 @@
     color: var(--color-scheme-3-text);
   }
 }
+
 @media only screen and (min-width: 1336px) {
   .galery-section {
     padding-top: 112px;
