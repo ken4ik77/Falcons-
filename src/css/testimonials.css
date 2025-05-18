@@ -1,24 +1,24 @@
 .testimonials-cont {
-    background-color: #F2FAFA;
+    background-color: var(--color-scheme-3-background);
     padding: 64px 0;
 }
 .testimonials-header {
-    font-family:"Cabin", sans-serif;
+    font-family: var(--second-family);
     font-weight: 400;
     font-size: 52px;
     line-height: 120%;
     letter-spacing: 0.01em;
     text-align: center;
-    color: #0d0b0a;
+    color: var(--color-scheme-4-text);
     margin-bottom: 20px;
 }
 .testimonials-text {
-    font-family: "Sarabun", sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
     text-align: center;
-    color: #0d0b0a;
+    color: var(--color-scheme-4-text);
     margin-bottom: 24px;
 }
 .clients-list {
@@ -27,18 +27,18 @@
     gap: 24px;
 }
 .client-element {
-    background-color: #DFEBEB;
+    background-color: var(--color-scheme-2-foreground);
 
     border-radius: 24px;
     padding: 12px;
 }
 .testim-elem-text {
-    font-family: "Sarabun", sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 22px;
     line-height: 160%;
     text-align: center;
-    color: #0d0b0a;
+    color: var(--color-scheme-3-text);
     margin-bottom: 32px;
 
 }
@@ -48,15 +48,15 @@
     margin-bottom: 16px;
 }
 .client-initials {
-    font-family: "Sarabun", sans-serif;
+    font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 160%;
     text-align: center;
-    color: #0d0b0a;
+    color: var(--color-scheme-3-text);
 }
 .text-profesion{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--third-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -65,8 +65,11 @@
 
 @media only screen and (min-width: 768px){
     .testimonials-cont{
-        padding: 40px 16px;
+        padding: 40px 0;
     }
+    .custom-cont{
+       padding: 0 32px;
+    }   
     .testimonials-header{
         font-size: 40px;
         margin-bottom: 24px;
@@ -79,6 +82,7 @@
 @media only screen and (min-width: 1336px){
     .testimonials-cont{
         padding: 112px 0;
+        background-color:  var(--color-scheme-3-background);
     }
     .custom-cont{
        padding: 0 64px;
@@ -86,9 +90,11 @@
     .clients-list{
         flex-direction: row;
         flex-wrap: wrap;
-
     }
     .client-element{
         flex-basis: calc((100% - 24px) / 2);
-    }
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
 }
