@@ -9,7 +9,7 @@
 
 .about-main {
   font-weight: 400;
-  font-size: 40px;
+  font-size: 52px;
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
@@ -18,7 +18,7 @@
 }
 .about-p-main {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   text-align: center;
   color: #3a414b;
@@ -75,9 +75,11 @@
     padding: 0 32px;
   }
   .about-main {
+    font-size: 40px;
     margin-bottom: 24px;
   }
   .about-p-main {
+    font-size: 18px;
     margin-bottom: 40px;
   }
   .ul-about {
@@ -124,6 +126,9 @@
   .div-about {
     max-width: 1440px;
     padding: 0 64px;
+  }
+  .about-main {
+    font-size: 52px;
   }
   .ul-about {
     max-width: 1312px;
