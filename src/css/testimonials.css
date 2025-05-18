@@ -78,16 +78,15 @@
 
 @media only screen and (min-width: 1336px){
     .testimonials-cont{
-        padding: 112px 64px;
+        padding: 112px 0;
     }
     .custom-cont{
-        padding-left: 0;
-        padding-right: 0;
-        margin: 0;
+       padding: 0 64px;
     }
     .clients-list{
         flex-direction: row;
         flex-wrap: wrap;
+
     }
     .client-element{
         flex-basis: calc((100% - 24px) / 2);
