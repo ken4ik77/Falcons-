@@ -1,10 +1,10 @@
 .about-us {
   background-color: #f2fef3;
+  padding: 64px 0;
 }
 .div-about {
   max-width: 375px;
-
-  padding: 64px 0;
+  padding: 0 16px;
 }
 
 .about-main {
@@ -40,13 +40,12 @@
   line-height: 1.6;
   text-align: center;
   color: #3a414b;
-  margin-bottom: 48px;
 }
 .ul-about {
 }
 .about-list {
-  gap: 48px;
-  margin: 0 16px;
+  display: block;
+  margin-bottom: 48px;
 }
 .btn-about {
   background-color: #c2d9fc;
@@ -66,6 +65,9 @@
   display: none;
 }
 @media only screen and (min-width: 768px) {
+  .about-us {
+    background-color: #f8fbfe;
+  }
   .div-about {
     max-width: 768px;
     display: flex;
