@@ -87,6 +87,9 @@
     .custom-cont{
        padding: 0 64px;
     }
+    .testimonials-header{
+        font-size: 52px;
+    }
     .clients-list{
         flex-direction: row;
         flex-wrap: wrap;
