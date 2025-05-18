@@ -5,38 +5,38 @@
 .team-section {
   padding-top: 64px;
   padding-bottom: 64px;
-  background: var(--color-drover-lightest);
-  color: var(--color-neutral-darkest);
+  background: var(--color-scheme-3-background);
+  color: var(--color-scheme-4-text);
 }
 
 .main-text {
-  font-family: var(--font-family-sarabun);
+font-family: var(--font-family);
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: var(--color-neutral-darkest);
+  color: var(--color-scheme-4-text);
   margin-bottom: 12px;
 }
 
 .main-title {
-  font-family: var(--font-family-cabin);
+  font-family: var(--second-family);
   font-weight: 400;
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0.01em;
   text-align: center;
-  color: var(--color-neutral-darkest);
+color: var(--color-scheme-4-text);
   margin-bottom: 20px;
 }
 
 .subtitle-text {
-  font-family: var(--font-family-sarabun);
+font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: var(--color-neutral-darkest);
+  color: var(--color-scheme-4-text);
 }
 
 .first-info{
@@ -73,31 +73,31 @@ margin-bottom: 48px;
 }
 
 .coach-name {
-  font-family: var(--font-family-sarabun);
+font-family: var(--font-family);
   font-weight: 600;
   font-size: 18px;
   line-height: 29px;
   text-align: center;
-  color: var(--color-neutral-darkest);
+color: var(--color-scheme-4-text);
 }
 
 .coach-position {
-  font-family: var(--font-family-sarabun);
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: var(--color-neutral-darkest);
+  color: var(--color-scheme-4-text);
   margin-bottom: 12px;
 }
 
 .coach-info {
-font-family: var(--font-family-sarabun);
+font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: var(--color-neutral-darkest);
+  color: var(--color-scheme-4-text);
   margin-bottom: 20px;
 }
 
@@ -108,7 +108,7 @@ font-family: var(--font-family-sarabun);
 }
 
 .social-links {
-  color: var(--color-neutral-darkest);
+  color: var(--color-scheme-4-text);
   transition: color 0.3s ease;
 }
 
