@@ -114,12 +114,12 @@
 }
 @media only screen and (min-width: 768px) {
   .prising {
-    max-width: 768px;
+    max-width: 767px;
     padding: 40px 32px;
     margin: 0 auto;
   }
   .prising-main {
-    max-width: 768px;
+    max-width: 767px;
     padding: 0;
   }
   .prising-main-text {
