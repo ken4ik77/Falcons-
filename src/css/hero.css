@@ -14,13 +14,14 @@ picture img {
 .hero{
   display: flex;
   background: #f2fafa;
-  padding: 0 16px;
+  padding-bottom: 48px;
 }
 
 .container {
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .hero-header{
@@ -52,7 +53,8 @@ picture img {
     justify-content: flex-start;
     flex-direction: column;
     gap: 20px;
-    padding: 48px 16px;
+    padding: 0 16px;
+    padding-top: 48px;
 }
 
 .btn-cont{
@@ -114,12 +116,17 @@ picture img {
 
 @media(min-width:768px) {
       
+  .hero {
+    padding-bottom: 24px;
+  }
+
   .container{
     min-width: 768px;
   }
 
   .hero-content{
-    padding: 24px 32px;
+    padding: 0 32px;
+    padding-top: 24px;
     gap: 16px;
   }
 
@@ -148,6 +155,11 @@ picture img {
   }
 
 @media(min-width:1336px) {
+
+  .hero {
+      padding-bottom: 80px;
+    }
+
     .container{
       min-width: 1336px;
     }
@@ -158,7 +170,9 @@ picture img {
       justify-content: flex-start;
       gap: 24px;
       margin: 0 auto;
-      padding: 80px 64px;
+      padding: 0 64px;
+      padding-top: 80px;
+      
     }
 
   .hero-header{
