@@ -116,6 +116,36 @@
   .prising {
     max-width: 768px;
     padding: 40px 32px;
+    margin: 0 auto;
+  }
+  .prising-main {
+    max-width: 768px;
+    padding: 0;
+  }
+  .prising-main-text {
+    width: 768px;
+  }
+  .prising-main-ul {
+    width: 704px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .prising-main-li {
+    width: 340px;
+    margin-bottom: 0;
+    padding: 16px;
+  }
+  .prising-h {
+    font-size: 22px;
+  }
+  .prising-p {
+    font-size: 72px;
+  }
+  .prising-full {
+    width: 704px;
+    display: flex;
   }
 }
 @media only screen and (min-width: 1336px) {
