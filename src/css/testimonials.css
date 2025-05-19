@@ -1,101 +1,103 @@
 .testimonials-cont {
-  background-color: var(--color-scheme-3-background);
-  padding: 64px 0;
+    background-color: var(--color-scheme-3-background);
+    padding: 64px 0;
 }
 .testimonials-header {
-  font-family: var(--second-family);
-  font-weight: 400;
-  font-size: 52px;
-  line-height: 120%;
-  letter-spacing: 0.01em;
-  text-align: center;
-  color: var(--color-scheme-4-text);
-  margin-bottom: 20px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--color-scheme-4-text);
+    margin-bottom: 20px;
 }
 .testimonials-text {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
-  text-align: center;
-  color: var(--color-scheme-4-text);
-  margin-bottom: 24px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--color-scheme-4-text);
+    margin-bottom: 24px;
 }
 .clients-list {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 .client-element {
-  background-color: var(--color-scheme-2-foreground);
+    background-color: var(--color-scheme-2-foreground);
 
-  border-radius: 24px;
-  padding: 12px;
+    border-radius: 24px;
+    padding: 12px;
 }
 .testim-elem-text {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 160%;
-  text-align: center;
-  color: var(--color-scheme-3-text);
-  margin-bottom: 32px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--color-scheme-3-text);
+    margin-bottom: 32px;
+
 }
-.avatar {
-  border-radius: 100%;
-  margin: 0 auto;
-  margin-bottom: 16px;
+.avatar{
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-bottom: 16px;
 }
 .client-initials {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 160%;
-  text-align: center;
-  color: var(--color-scheme-3-text);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--color-scheme-3-text);
 }
-.text-profesion {
-  font-family: var(--third-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
+.text-profesion{
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
 }
 /* Tablet */
 
-@media only screen and (min-width: 768px) {
-  .testimonials-cont {
-    padding: 40px 0;
-  }
-  .custom-cont {
-    padding: 0 32px;
-  }
-  .testimonials-header {
-    font-size: 40px;
-    margin-bottom: 24px;
-  }
+@media only screen and (min-width: 768px){
+    .testimonials-cont{
+        padding: 40px 0;
+    }
+    .custom-cont{
+       padding: 0 32px;
+    }   
+    .testimonials-header{
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+
 }
 
 /* Computer */
 
-@media only screen and (min-width: 1336px) {
-  .testimonials-cont {
-    padding: 112px 0;
-    background-color: var(--color-scheme-3-background);
-  }
-  .custom-cont {
-    padding: 0 64px;
-  }
-  .testimonials-header {
-    font-size: 52px;
-  }
-  .clients-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .client-element {
-    flex-basis: calc((100% - 24px) / 2);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+@media only screen and (min-width: 1336px){
+    .testimonials-cont{
+        padding: 112px 0;
+        background-color:  var(--color-scheme-3-background);
+    }
+    .custom-cont{
+       padding: 0 64px;
+    }
+    .testimonials-header{
+        font-size: 52px;
+    }
+    .clients-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .client-element{
+        flex-basis: calc((100% - 24px) / 2);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
 }

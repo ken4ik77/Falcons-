@@ -1,5 +1,5 @@
 .about-us {
-  background: var(--color-scheme-1-background);
+  background-color: #f2fef3;
   padding: 64px 0;
 }
 .div-about {
@@ -8,42 +8,38 @@
 }
 
 .about-main {
-  font-family: var(--second-family);
   font-weight: 400;
   font-size: 52px;
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
-  color: var(--color-scheme-1-text);
+  color: #3a414b;
   margin-bottom: 20px;
 }
 .about-p-main {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
   text-align: center;
-  color: var(--color-scheme-1-text);
+  color: #3a414b;
   margin-bottom: 48px;
 }
 
 .about-h {
-  font-family: var(--second-family);
   font-weight: 400;
   font-size: 24px;
   line-height: 1.4;
   letter-spacing: 0.01em;
   text-align: center;
-  color: var(--color-scheme-1-text);
+  color: #3a414b;
   margin-bottom: 20px;
 }
 .about-p {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  color: var(--color-scheme-1-text);
+  color: #3a414b;
 }
 .ul-about {
 }
@@ -52,10 +48,9 @@
   margin-bottom: 48px;
 }
 .btn-about {
-  font-family: var(--font-family);
-  background: var(--color-hawkes-blue);
-  ccolor: var(--color-neutral-darkest);
-  border: 1px solid var(--color-hawkes-blue);
+  background-color: #c2d9fc;
+  color: #0d0b0a;
+  border: 1px solid #c2d9fc;
   border-radius: 100px;
   padding: 10px 24px;
   text-align: center;
@@ -70,7 +65,7 @@
 }
 @media only screen and (min-width: 768px) {
   .about-us {
-    background: var(--color-scheme-3-background);
+    background-color: #f8fbfe;
     padding: 40px 0;
   }
   .div-about {
