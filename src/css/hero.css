@@ -119,7 +119,7 @@ picture img {
   }
 
   .hero-header {
-    max-width: 644px;
+    width: 460px;
   }
 
   .btn-cont {
@@ -145,11 +145,11 @@ picture img {
   .hero-content {
     flex-direction: row;
     gap: 24px;
-    padding: 80px 64px;
+    padding: 80px 64px 80px 67px;
   }
 
   .hero-header {
-    width: 644px;
+    width: 780px;
     height: 258px;
     font-size: 72px;
   }
