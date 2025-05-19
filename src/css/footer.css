@@ -1,13 +1,14 @@
 .page-footer {
-  padding: 48px 0;
-  background: var(--color-hawkes-blue-lighter);
+  padding: 48px 16px;
+  background-color: #dfebeb;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
   gap: 48px;
-  background: var(color-hawkes-blue-lightest);
+  background-color: #f8fbfe;
+  border-radius: 16px;
   border: 0 solid var(--opacity-neutral-darkest-15);
   border-radius: 16px;
   padding: 32px;
@@ -19,7 +20,7 @@
 
 @media screen and (min-width: 768px) {
   .page-footer {
-    padding: 40px 0;
+    padding: 40px 32px;
   }
 
   .footer-container {
@@ -31,7 +32,7 @@
 
 @media screen and (min-width: 1336px) {
   .page-footer {
-    padding: 64px 0;
+    padding: 64px;
   }
 
   .footer-container {
