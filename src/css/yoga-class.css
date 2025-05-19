@@ -34,6 +34,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
+    margin-bottom: 48px;
 }
 .yoga-title-list-item {
     width: 100%;
@@ -63,8 +64,7 @@
     border: 1px solid var(--color-hawkes-blue);
     border-radius: 100px;
     padding: 10px 24px;
-    text-align: center;
-    margin-top: 48px;
+    text-align: center;    
 }
 .btn-yoga-ref {
     font-weight: 500;
@@ -110,7 +110,7 @@
         gap: 8px;
         width: 110px;
         height: 46px;
-        margin: 40px auto 0 auto;
+        margin: 0 auto;
         padding: 0;
     }
     .btn-yoga-ref {
