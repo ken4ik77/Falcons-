@@ -31,7 +31,3 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
-
-input {
-  font-family: inherit;
-}
