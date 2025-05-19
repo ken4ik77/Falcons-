@@ -1,13 +1,13 @@
 .page-footer {
   padding: 48px 16px;
-  background-color: #dfebeb;
+  background-color: var(--color-hawkes-blue-lighter);
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
   gap: 48px;
-  background-color: #f8fbfe;
+  background-color: var(--color-hawkes-blue-lightest);
   border-radius: 16px;
   border: 0 solid var(--opacity-neutral-darkest-15);
   border-radius: 16px;
