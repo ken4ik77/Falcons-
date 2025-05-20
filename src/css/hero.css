@@ -126,6 +126,10 @@ picture img {
     flex-direction: row;
   }
 
+  .hero-text{
+    width: 590px;
+  }
+
   .hero-btn_1,
   .hero-btn_2 {
     width: 144px;
@@ -155,7 +159,7 @@ picture img {
   }
 
   .hero-text-cont {
-    width: 641px;
+    width: 540px;
     padding-top: 8px;
   }
 

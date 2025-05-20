@@ -1,29 +1,75 @@
-.back-link {
-  position: relative;
-  display: inline-block;
-  padding: 4px 8px;
-  margin-top: 32px;
-  border: 1px solid;
-  border-radius: 8px;
+.galery-section {
+  padding: 64px 0;
+  background-color: var(--color-drover-lightest);
 }
-.back-link::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 16px;
-  height: 16px;
+.galery-section .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.galery-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--color-scheme-3-text);
+  margin-bottom: 20px;
+}
+.galery-title-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--color-neutral-darkest);
+  margin-bottom: 48px;
+}
+.galery-title-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.galery-title-list-item {
+  width: calc((100% - 24px) / 2);
+}
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z'/%3E%3C/svg%3E");
-  transition: 300ms ease-in;
-  transition-property: opacity;
-  opacity: 0;
-  animation: slide 500ms linear infinite alternate-reverse both;
-  animation-play-state: paused;
+@media only screen and (min-width: 768px) {
+  .galery-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--color-scheme-3-background);
+  }
+  .galery-section .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .galery-title {
+    margin-bottom: 24px;
+  }
+  .galery-title-text {
+    margin-bottom: 80px;
+    color: var(--color-scheme-3-text);
+  }
 }
-.back-link:hover::before {
-  opacity: 1;
-  animation-play-state: running;
+@media only screen and (min-width: 1336px) {
+  .galery-section {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  .galery-section .container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .galery-title {
+    font-size: 52px;
+  }
+  .galery-title-text {
+    width: 768px;
+    margin: 0 auto 80px auto;
+    font-weight: 500;
+  }
+  .galery-title-list-item {
+    width: calc((100% - 48px) / 3);
+  }
 }
