@@ -1,5 +1,5 @@
 .page-footer {
-  padding: 48px 16px;
+  padding: 48px 0;
   background-color: var(--color-hawkes-blue-lighter);
 }
 
@@ -10,7 +10,6 @@
   background-color: var(--color-hawkes-blue-lightest);
   border-radius: 16px;
   border: 0 solid var(--opacity-neutral-darkest-15);
-  border-radius: 16px;
   padding: 32px;
 }
 
@@ -20,7 +19,7 @@
 
 @media screen and (min-width: 768px) {
   .page-footer {
-    padding: 40px 32px;
+    padding: 40px 0;
   }
 
   .footer-container {
@@ -32,7 +31,7 @@
 
 @media screen and (min-width: 1336px) {
   .page-footer {
-    padding: 64px;
+    padding: 64px 0;
   }
 
   .footer-container {
@@ -58,8 +57,9 @@
 }
 
 .subscribe-text {
-  font-weight: var(font-weight);
-  font-size: var(font-size);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -85,20 +85,23 @@
 }
 
 .subscribe-form-input::placeholder {
-  font-weight: var(font-weight);
-  font-size: var(font-size);
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.6;
   color: var(--opacity-neutral-darkest-60);
   opacity: 1;
 }
 
 .subscribe-form-input {
+  font-family: var(--font-family);
   width: 100%;
   border: none;
-  background-color: transparent;
+  height: 42px;
+  background-color: var(--opacity-neutral-darkest-5);
 }
 
 .subscribe-form-button {
+  font-family: var(--font-family);
   border: 1px solid var(--opacity-transparent);
   background: var(--opacity-neutral-darkest-5);
   border-radius: 100px;
@@ -108,9 +111,14 @@
 }
 
 .privacy-text {
-  font-weight: var(font-weight);
+  font-family: var(--font-family);
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.6;
+}
+
+.copyright-desktop {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -138,6 +146,10 @@
 
   .subscribe-form-input {
     width: 546px;
+  }
+
+  .copyright-desktop {
+    display: none;
   }
 }
 
@@ -175,10 +187,11 @@
 }
 
 .links-title {
+  font-family: var(--font-family);
   font-weight: 600;
-  font-size: var(font-size);
+  font-size: 16px;
   line-height: 1.6;
-  fill: var(--color-neutral-darkest);
+  color: var(--color-neutral-darkest);
 }
 
 .links-container {
@@ -200,12 +213,13 @@
 
 .links-list-item {
   padding: 8px 0px;
-  font-weight: var(font-weight);
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.6;
 }
 
 .links-list-item-link {
+  font-family: var(--font-family);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -218,7 +232,8 @@
 }
 
 .copyright {
-  font-weight: var(font-weight);
+  font-family: var(--font-family);
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.6;
 }
