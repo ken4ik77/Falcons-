@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,15 +16,8 @@ picture img {
   padding-bottom: 48px;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0;
-  min-width: 320px;
-  max-width: 375px;
-}
-
 .hero-header {
-  font-family: "Cabin", sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-weight: 400;
   font-size: 44px;
   line-height: 1.2;
@@ -34,7 +26,7 @@ picture img {
 }
 
 .hero-text {
-  font-family: "Sarabun", sans-serif;
+  font-family: 'Sarabun', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
@@ -82,7 +74,7 @@ picture img {
 
 .hero-btn_1 {
   border: 1px solid #c2d9fc;
-  background-color: #C2D9FC;
+  background-color: #c2d9fc;
 }
 
 .hero-btn_2 {
@@ -101,7 +93,7 @@ picture img {
 }
 
 /* Tablet */
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .hero {
     padding-bottom: 24px;
   }
@@ -134,7 +126,7 @@ picture img {
 }
 
 /* Desktop */
-@media(min-width: 1336px) {
+@media (min-width: 1336px) {
   .hero {
     padding-bottom: 80px;
   }
