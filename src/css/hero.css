@@ -4,20 +4,41 @@
   padding: 0;
 }
 
+
+.images-hero {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+}
 picture img {
   display: block;
   max-width: 100%;
   object-fit: cover;
+
 }
 
 .hero {
   display: flex;
+
+  flex-direction: column;
+  background: #f2fafa;
+  padding-bottom: 48px;
+  
+}
+
+.hero-header {
+  font-family: var(--carbin), sans-serif;
+
   background: #f2fafa;
   padding-bottom: 48px;
 }
 
 .hero-header {
   font-family: 'Cabin', sans-serif;
+
   font-weight: 400;
   font-size: 44px;
   line-height: 1.2;
@@ -26,7 +47,11 @@ picture img {
 }
 
 .hero-text {
+
+  font-family: var(--sarabun), sans-serif;
+
   font-family: 'Sarabun', sans-serif;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
@@ -73,8 +98,13 @@ picture img {
 }
 
 .hero-btn_1 {
+
+  border: 1px solid var(--Hawkes-Blue);
+  background-color: var(--Hawkes-Blue);
+
   border: 1px solid #c2d9fc;
   background-color: #c2d9fc;
+
 }
 
 .hero-btn_2 {
@@ -93,14 +123,25 @@ picture img {
 }
 
 /* Tablet */
+
+@media(min-width: 768px) {
+
+  .images-hero{
+    min-width: 768px;
+  }
+
+
 @media (min-width: 768px) {
+
   .hero {
     padding-bottom: 24px;
   }
 
+
   .container {
     min-width: 768px;
   }
+
 
   .hero-content {
     padding: 24px 32px 0;
@@ -119,6 +160,12 @@ picture img {
     flex-direction: row;
   }
 
+
+  .hero-text{
+    width: 590px;
+  }
+
+
   .hero-btn_1,
   .hero-btn_2 {
     width: 144px;
@@ -126,10 +173,29 @@ picture img {
 }
 
 /* Desktop */
+
+@media(min-width: 1336px) {
+
+  .images-hero {
+      min-width: 1336px;
+    }
+
+        .hero-text {
+          width: 650px; 
+        }
+
+
 @media (min-width: 1336px) {
+
   .hero {
     padding-bottom: 80px;
   }
+
+
+  .hero-content {
+    flex-direction: row;
+    gap: 24px;
+    padding: 80px 64px 0 67px;
 
   .container {
     min-width: 1336px;
@@ -139,6 +205,7 @@ picture img {
     flex-direction: row;
     gap: 24px;
     padding: 80px 64px 80px 67px;
+
   }
 
   .hero-header {
