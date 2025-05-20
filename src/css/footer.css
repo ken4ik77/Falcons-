@@ -111,6 +111,10 @@
   width: 100%;
   height: 46px;
 }
+.subscribe-form-button:hover,
+.subscribe-form-button:focus {
+  background-color: rgba(185, 185, 185, 0.362);
+}
 
 .privacy-text {
   font-family: var(--font-family);
@@ -218,6 +222,11 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.6;
+}
+.links-list-item:hover,
+.links-list-item:focus {
+  color: #404bbf;
+  background-color: var(--color-hawkes-blue);
 }
 
 .links-list-item-link {
