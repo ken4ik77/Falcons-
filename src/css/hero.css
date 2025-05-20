@@ -15,14 +15,10 @@ picture img {
   background: #f2fafa;
   padding-bottom: 48px;
 }
-<<<<<<< HEAD
 
-
-=======
 .container-hero {
   padding: 0;
 }
->>>>>>> origin
 .hero-header {
   font-family: var(--second-family);
   font-weight: 400;
