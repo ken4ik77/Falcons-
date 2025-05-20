@@ -13,19 +13,21 @@
 
 .modal {
     background: var(--color-scheme-1-background);
-    padding: 64px 16px 112px 16px;
+    padding:64px 16px;
     width: 100%;
     height: 100%;
     border-radius: 0;
     box-shadow: none;
     overflow-y: auto;
     position: relative;
+    width: 375px;
+    height: 720px;
 }
 
 .modal-close-bth {
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 16px;
+    right: 16px;
     width: 32px;
     height: 32px;
     display: flex;
@@ -145,7 +147,7 @@
 
 @media screen and (min-width:768px) {
     .modal {
-        padding: 64px 92px 64px 92px;
+        padding: 64px 92px;
         width: 704px;
         height: 573px;
     }
@@ -217,7 +219,7 @@
 
 @media screen and (min-width:1336px) {
 .modal {
-    padding: 64px 64px 64px 64px;
+    padding: 64px 64px ;
     width:768px ;
     height:583px ;
     }
