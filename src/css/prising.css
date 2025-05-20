@@ -1,15 +1,14 @@
 .prising {
   background: var(--color-scheme-2-background);
-  padding: 64px 16px;
+  padding: 64px 0;
 }
 .prising-main-text {
   margin-bottom: 48px;
-  width: 343px;
 }
 .prising-main {
-  max-width: 343px;
   display: flex;
   flex-direction: column;
+  padding: 0 16px;
 }
 .p-prising-main {
   font-family: var(--font-family);
@@ -37,9 +36,10 @@
   line-height: 1.6;
   text-align: center;
   color: var(--color-scheme-2-text);
+  margin-bottom: 48px;
 }
 .prising-main-ul {
-  width: 343px;
+  max-width: 343px;
 }
 .prising-main-li {
   border: 0px solid var(--color-scheme-2-border);
@@ -74,7 +74,7 @@
 }
 .prising-ul {
   padding: 8px 0;
-  width: 295px;
+  max-width: 343px;
   margin-bottom: 32px;
 }
 .prising-li {
@@ -114,19 +114,18 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1335px) {
   .prising {
-    max-width: 767px;
-    padding: 40px 32px;
+    padding: 40px 0;
     margin: 0 auto;
   }
   .prising-main {
     max-width: 767px;
-    padding: 0;
+    padding: 0 32px;
   }
   .prising-main-text {
-    width: 768px;
+    max-width: 768px;
   }
   .prising-main-ul {
-    width: 704px;
+    max-width: 768px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -153,16 +152,15 @@
     align-items: baseline;
     position: relative;
     height: 383px;
-    padding: auto 0;
     justify-content: center;
   }
   .order1 {
     order: 1;
-    max-width: 320px;
+    width: 308px;
   }
   .order2 {
     order: 3;
-    max-width: 320px;
+    width: 320px;
     position: absolute;
     top: 80px;
     right: 15px;
@@ -170,7 +168,7 @@
   }
   .order3 {
     order: 2;
-    max-width: 320px;
+    max-width: 308px;
   }
 }
 @media only screen and (min-width: 1336px) {
@@ -182,12 +180,12 @@
     padding: 0 64px;
   }
   .prising-main-text {
-    width: 768px;
+    max-width: 768px;
     margin: 0 auto;
     margin-bottom: 40px;
   }
   .prising-main-ul {
-    width: 1312px;
+    max-width: 1312px;
     display: flex;
     flex-direction: row;
     gap: 24px;

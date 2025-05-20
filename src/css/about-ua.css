@@ -54,7 +54,7 @@
 .btn-about {
   font-family: var(--font-family);
   background: var(--color-hawkes-blue);
-  ccolor: var(--color-neutral-darkest);
+  color: var(--color-neutral-darkest);
   border: 1px solid var(--color-hawkes-blue);
   border-radius: 100px;
   padding: 10px 24px;

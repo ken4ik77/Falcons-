@@ -14,17 +14,21 @@ header{
 .header-container{
     height: 64px;
     padding: 0 16px;
-    margin: 0;
+
 }
 
 .header-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   .header-list{
     display: none;
+  }
+  .header-list-item:hover,
+  .header-list-item:focus {
+   background-color: #8fbafb;
   }
 
   .burger-btn{
@@ -32,8 +36,8 @@ header{
   padding: 0;
   margin-top: 26px;
   margin-bottom: 26px;
-  padding-left: 20px;
-  /* margin-right: 110px */
+  margin-left: 20px;
+  margin-right: 110px
   }
 
 .yoga-bloom{
@@ -41,7 +45,7 @@ header{
     height: 23px;
     margin-top: 14px;
     margin-bottom: 14px;
-    /* margin-right: 56px; */
+    margin-right: 56px;
 }
 
   .header-join-href{
@@ -52,8 +56,6 @@ header{
     border: 1px solid var(--color-hawkes-blue);
     border-radius: 100px;
     padding: 4px 20px;
-    width: 74px;
-    height: 34px;
     background: var(--color-hawkes-blue);
     margin-top: 15px;
     margin-bottom: 15px;
@@ -64,44 +66,81 @@ header{
     color: var(--color-neutral-darkest);
 }
 
+ .header-join-href:hover,
+ .header-join-href:focus {
+     background-color: #8fbafb;
+ }
+.now-span{
+    display: none;
+}
+
+
+  .current-page{
+    border-bottom: 2px solid var(--opacity-neutral-darkest-50);
+    width: 89px;
+  }
 
 /* TABLET */
-@media (min-width: 768){
+@media (min-width: 768px) {
   .header-container {
     height: 72px;
   }
+  
 
- .burger-btn{
-  border: none;
-
-  padding: 0;
-  margin-top: 26px;
-  margin-bottom: 26px;
-  padding-left: 20px;
-  margin-right: 110px
+  .burger-btn{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 290px
   }
+
+  .yoga-bloom{
+    margin-top: 20px;
+    margin-bottom: 28px;
+    margin-right: 205px;
+}
+
+.now-span {
+    display: inline;
+}
+ .header-join-href{
+    width: 107px;
+    height: 42px; 
+    padding: 8px 20px;
+}
 }
 
 
+/* DESKTOP */
+@media (min-width: 1440px){
+
+  .burger-btn{
+    display: none;
+  }
+
+.header-list{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-right: 255px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: var(--color-scheme-3-text);
+}
+
+  .yoga-bloom{
+    margin-top: 20px;
+    margin-bottom: 28px;
+    margin-right: 509px;
+}
+
+}
 
 
 /* <!-- NAVBAR-MENU --> */
-.navbar-menu{
-    background: var(--color-scheme-3-background);
-    font-family: var(--font-family);
-    color: var(--color-scheme-3-text);
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 998;
 
-
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-}
 
 .navbar-menu-wrap{
     display: flex;
@@ -149,12 +188,32 @@ gap: 12px;
     color: var(--color-neutral-darkest);
     margin: 0 auto;
 }
-
-
-.is-hidden{
-    display: none;
+.navbar-menu-join:hover,
+.navbar-menu-join:focus{
+         background-color: #8fbafb;
 }
-/* .header-list{
+
+.navbar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
     display: flex;
-    flex-direction: row;
-} */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    background: var(--color-scheme-3-background);
+    font-family: var(--font-family);
+    color: var(--color-scheme-3-text);
+}
+
+.navbar-menu.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: all;
+}
