@@ -24,8 +24,37 @@
       href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $('a').on('click', function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== '') {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
     <script type="module" crossorigin src="/Falcons-/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Falcons-/assets/index-CgwMAJMY.css">
+    <link rel="stylesheet" crossorigin href="/Falcons-/assets/index-BmgPI2q6.css">
   </head>
   <body>
     <header id="header">
@@ -144,7 +173,7 @@
         </p>
         <ul class="btn-cont">
           <li class="hero-btn_1">
-            <a href="#pricing">Join Now</a>
+            <a href="#prising">Join Now</a>
           </li>
           <li class="hero-btn_2">
             <a href="#galery">Learn More</a>
@@ -230,7 +259,7 @@
       </li>
     </ul>
     <div class="btn-yoga">
-      <a href="#pricing" class="btn-yoga-ref">
+      <a href="#prising" class="btn-yoga-ref">
         Join <span class="btn-yoga-span">now</span>
       </a>
     </div>
@@ -721,7 +750,7 @@
       </li>
     </ul>
     <div class="btn-about">
-      <a href="#pricing" class="btn-about-ref">
+      <a href="#prising" class="btn-about-ref">
         Join <span class="btn-span">now</span>
       </a>
     </div>
