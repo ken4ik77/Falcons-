@@ -111,6 +111,8 @@
   font-size: 16px;
   line-height: 1.6;
   color: var(--color-neutral-darkest);
+  display: block;
+  text-align: center;
 }
 @media only screen and (min-width: 768px) and (max-width: 1335px) {
   .prising {
@@ -196,7 +198,7 @@
   }
   .btn-prising {
     width: 100%;
-    margin-top: 84px;
+    margin-top: 111px;
   }
   .order3 {
     margin-top: 0;
