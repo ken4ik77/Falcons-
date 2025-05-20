@@ -9,8 +9,15 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
 }
-
+.backdrop.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: all;
+}
 .modal {
     background: var(--color-scheme-1-background);
     padding:64px 16px;
@@ -20,8 +27,8 @@
     box-shadow: none;
     overflow-y: auto;
     position: relative;
-    width: 375px;
-    height: 720px;
+    width: 310px;
+    min-height: 720px;
 }
 
 .modal-close-bth {
@@ -81,10 +88,6 @@
     margin-bottom: 32px;
 }
 
-.form-container {
-    width: 343px;
-    height: 346px;
-}
 
 .form-info {
     margin-bottom: 24px;
@@ -142,7 +145,7 @@
     color: var(--color-neutral-darkest);
     cursor: pointer;
     box-sizing: border-box;
-    width: 343px;
+    width: 100%;
 }
 
 @media screen and (min-width:768px) {
