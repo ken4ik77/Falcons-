@@ -115,6 +115,7 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1335px) {
   .prising {
+    max-width: 767px;
     padding: 40px 0;
     margin: 0 auto;
   }
@@ -126,20 +127,20 @@
     max-width: 768px;
   }
   .prising-main-ul {
-    max-width: 704px;
+    width: 704px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
   }
   .prising-main-li {
-    max-width: 340px;
+    width: 340px;
     margin-bottom: 0;
     padding: 16px;
   }
   .prising-h {
     font-size: 22px;
-    max-width: 320px;
+    width: 320px;
     margin-bottom: 24px;
   }
   .prising-p {
@@ -147,7 +148,7 @@
     margin-bottom: 24px;
   }
   .prising-full {
-    max-width: 704px;
+    width: 704px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
