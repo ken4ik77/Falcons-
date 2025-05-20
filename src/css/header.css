@@ -1,7 +1,64 @@
 * {
   box-sizing: border-box;
 }
-
+svg{
+    cursor: pointer;
+}
+.header-container{
+    height: 64px;
+}
 .header-nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
+
+  .header-list{
+    display: none;
+  }
+
+  .burger-btn{
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
+
+.yoga-bloom{
+    width: 83px;
+    height: 23px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+  .header-join-href{
+    width: 74px;
+    height: 34px;   
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    padding: 4px 20px;
+    width: 74px;
+    height: 34px;
+    background: #c2d9fc;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 16px;
+    margin-left: 39.5px;
+}
+
+
+
+
+
+
+
+
+/* .header-list{
+    display: flex;
+    flex-direction: row;
+} */
