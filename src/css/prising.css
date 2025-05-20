@@ -6,7 +6,6 @@
   margin-bottom: 48px;
 }
 .prising-main {
-  max-width: 343px;
   display: flex;
   flex-direction: column;
   padding: 0 16px;
@@ -126,20 +125,20 @@
     max-width: 768px;
   }
   .prising-main-ul {
-    max-width: 704px;
+    max-width: 768px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
   }
   .prising-main-li {
-    max-width: 340px;
+    width: 340px;
     margin-bottom: 0;
     padding: 16px;
   }
   .prising-h {
     font-size: 22px;
-    max-width: 320px;
+    width: 320px;
     margin-bottom: 24px;
   }
   .prising-p {
@@ -147,7 +146,7 @@
     margin-bottom: 24px;
   }
   .prising-full {
-    max-width: 704px;
+    width: 704px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -157,11 +156,11 @@
   }
   .order1 {
     order: 1;
-    max-width: 320px;
+    width: 308px;
   }
   .order2 {
     order: 3;
-    max-width: 320px;
+    width: 320px;
     position: absolute;
     top: 80px;
     right: 15px;
@@ -169,7 +168,7 @@
   }
   .order3 {
     order: 2;
-    max-width: 320px;
+    max-width: 308px;
   }
 }
 @media only screen and (min-width: 1336px) {
