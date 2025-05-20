@@ -60,6 +60,10 @@
   padding: 10px 24px;
   text-align: center;
 }
+.btn-about:hover,
+.btn-about:focus {
+  background-color: #8fbafb;
+}
 .btn-about-ref {
   font-weight: 500;
   font-size: 16px;

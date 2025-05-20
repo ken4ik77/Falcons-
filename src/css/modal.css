@@ -146,6 +146,10 @@
   box-sizing: border-box;
   width: 100%;
 }
+.submit-bth-modal:hover,
+.submit-bth-modal:focus {
+  background-color: #8fbafb;
+}
 
 @media screen and (min-width: 768px) {
   .modal {
