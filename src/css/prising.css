@@ -6,7 +6,6 @@
   margin-bottom: 48px;
 }
 .prising-main {
-  max-width: 343px;
   display: flex;
   flex-direction: column;
   padding: 0 16px;
@@ -115,7 +114,6 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1335px) {
   .prising {
-    max-width: 767px;
     padding: 40px 0;
     margin: 0 auto;
   }
@@ -127,7 +125,7 @@
     max-width: 768px;
   }
   .prising-main-ul {
-    width: 704px;
+    max-width: 768px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -158,11 +156,11 @@
   }
   .order1 {
     order: 1;
-    max-width: 320px;
+    width: 308px;
   }
   .order2 {
     order: 3;
-    max-width: 320px;
+    width: 320px;
     position: absolute;
     top: 80px;
     right: 15px;
@@ -170,7 +168,7 @@
   }
   .order3 {
     order: 2;
-    max-width: 320px;
+    max-width: 308px;
   }
 }
 @media only screen and (min-width: 1336px) {
