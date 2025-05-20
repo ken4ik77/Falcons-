@@ -17,12 +17,6 @@ picture img {
   padding-bottom: 48px;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0;
-  min-width: 320px;
-  max-width: 375px;
-}
 
 .hero-header {
   font-family: "Cabin", sans-serif;
