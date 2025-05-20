@@ -31,7 +31,7 @@
 }
 
 .hero-text {
-  font-family: var(--Sarabun), sans-serif;
+  font-family: var(--sarabun), sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
@@ -78,8 +78,8 @@
 }
 
 .hero-btn_1 {
-  border: 1px solid #c2d9fc;
-  background-color: #C2D9FC;
+  border: 1px solid var(--Hawkes-Blue);
+  background-color: var(--Hawkes-Blue);
 }
 
 .hero-btn_2 {
