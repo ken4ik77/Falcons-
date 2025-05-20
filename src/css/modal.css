@@ -146,6 +146,8 @@
 @media screen and (min-width:768px) {
     .modal {
         padding: 64px 92px 64px 92px;
+        width: 704px;
+        height: 573px;
     }
 
     .modal-title {
@@ -167,12 +169,18 @@
         margin-bottom: 24px;
     }
 
-    .form-container {
-        width: 640px;
-        height: 246px;
-    }
 
+.form-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 
+.form-row{
+    display: flex;
+        flex-direction: row;
+        gap: 24px;
+}
 
     .form-label {
         display: block;
@@ -205,4 +213,14 @@
     .submit-bth-modal {
         width: 155px;
     }
+}
+
+@media screen and (min-width:1336px) {
+.modal {
+    padding: 64px 64px 64px 64px;
+    width:768px ;
+    height:583px ;
+    }
+    
+ 
 }
