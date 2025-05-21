@@ -21,8 +21,6 @@
 .modal {
   background: var(--color-scheme-1-background);
   padding: 64px 16px;
-  width: 100%;
-  height: 100%;
   border-radius: 0;
   box-shadow: none;
   overflow-y: auto;
