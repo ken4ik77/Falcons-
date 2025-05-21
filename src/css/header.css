@@ -19,7 +19,7 @@ header {
 .header-nav {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .header-list {
@@ -27,25 +27,19 @@ header {
 }
 .header-list-item:hover,
 .header-list-item:focus {
-  background-color: #8fbafb;
+  color: #8fbafb;
 }
 
 .burger-btn {
   border: none;
   padding: 0;
-  margin-top: 26px;
-  margin-bottom: 26px;
-  margin-left: 20px;
-  margin-right: 110px;
   background-color: transparent;
 }
 
 .yoga-bloom {
   width: 83px;
   height: 23px;
-  margin-top: 14px;
-  margin-bottom: 14px;
-  margin-right: 56px;
+  margin: 14px 0;
 }
 
 .header-join-href {
@@ -176,18 +170,16 @@ header {
 }
 
 .navbar-menu-join {
-  width: 74px;
-  height: 34px;
   text-align: center;
   cursor: pointer;
   border: 1px solid var(--color-hawkes-blue);
   border-radius: 100px;
   padding: 10px 24px;
-  width: 343px;
+  max-width: 343px;
   height: 46px;
+  width: 100%;
+  display: block;
   background: var(--color-hawkes-blue);
-  margin-top: 15px;
-  margin-bottom: 15px;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
