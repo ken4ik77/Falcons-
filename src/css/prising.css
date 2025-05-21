@@ -75,7 +75,7 @@
 .prising-ul {
   padding: 8px 0;
   max-width: 343px;
-  margin-bottom: 32px;
+  margin-bottom: 110px;
 }
 .prising-li {
   font-family: var(--font-family);
@@ -158,7 +158,7 @@
     flex-direction: column;
     align-items: baseline;
     position: relative;
-    height: 383px;
+    
     justify-content: center;
   }
   .btn-prising {
@@ -173,7 +173,7 @@
     order: 3;
     width: 320px;
     position: absolute;
-    top: 80px;
+    top: 0;
     right: 15px;
     margin: 0;
   }
@@ -221,6 +221,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 24px;
     justify-content: center;
   }
@@ -229,9 +230,13 @@
     margin-bottom: 0;
     padding: 32px 32px;
   }
+  .prising-main-li .prising-full {
+    margin-top: 86px;
+    margin-bottom: 86px;
+  }
   .btn-prising {
     width: 100%;
-    margin-top: 111px;
+    margin-top: 30px;
   }
   .order1 {
     order: 1;
@@ -240,6 +245,7 @@
   .order2 {
     order: 2;
     max-width: 320px;
+    top: 0;
     margin: 0;
     position: relative;
   }
