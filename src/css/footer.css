@@ -198,6 +198,7 @@
   font-size: 16px;
   line-height: 1.6;
   color: var(--color-neutral-darkest);
+  width: 279px;
 }
 
 .links-container {
@@ -226,9 +227,7 @@
 .links-list-item:hover,
 .links-list-item:focus {
   color: #404bbf;
-  background-color: var(--color-hawkes-blue);
 }
-
 .links-list-item-link {
   font-family: var(--font-family);
   display: flex;
